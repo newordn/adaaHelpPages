@@ -12,9 +12,12 @@
     border: 1px solid gray;
     padding:1rem 0.5rem 1rem 0.5rem;
     margin-bottom: 2rem;
+    cursor: pointer;
+    color:gray;
 }
 .question-item-img{
     width: 40px !important;
+    height: 45px;
     margin-right: 1rem;
     
 }
@@ -28,6 +31,9 @@
     align-items: center;
     margin-bottom: 1rem;
 }
+.text-blue{
+    color:#0070c0;
+}
 .search{
     position: relative;
 }
@@ -39,4 +45,7 @@
 }
 .search-input{
     padding-left: 3rem;
+}
+.side-bg{
+    background-color: #eeece1;
 }
