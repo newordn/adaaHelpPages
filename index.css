@@ -1,6 +1,9 @@
 .border-bottom-blue{
     border-bottom: 5px solid #0070c0;
 }
+.logo{
+    height: 30px;
+}
 .question-item{
     display: flex;
     flex-direction: row;
@@ -21,8 +24,9 @@
     color:white;
     text-align: center;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction:column;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 .search{
     position: relative;
